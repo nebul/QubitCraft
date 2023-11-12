@@ -4,7 +4,11 @@
 #include <complex>
 #include <vector>
 
-class Qubit {
+#include "gate.hpp"
+
+class Qubit 
+{
+
 public:
     Qubit();
 
@@ -17,8 +21,7 @@ public:
 
     int measure();
 
-
-    void applyGate(const std::vector<std::vector<std::complex<double>>>& gate);
+    void applyGate(const Gate& gate);
 
 private:
 
@@ -26,6 +29,7 @@ private:
     std::complex<double> beta_;  // |1>
 
     void normalize();
+    
 };
 
 #endif // QUBIT_H
