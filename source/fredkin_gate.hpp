@@ -1,9 +1,6 @@
 #ifndef FREDKINGATE_H
 #define FREDKINGATE_H
 
-#include <vector>
-#include <complex>
-
 #include "gate.hpp"
 
 class FredkinGate : public Gate

@@ -1,9 +1,6 @@
 #ifndef CNOTGATE_H
 #define CNOTGATE_H
 
-#include <vector>
-#include <complex>
-
 #include "gate.hpp"
 
 class CNotGate : public Gate

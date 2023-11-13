@@ -2,8 +2,6 @@
 #define HADAMARDGATE_H
 
 #include "gate.hpp"
-#include <complex>
-#include <vector>
 
 class HadamardGate : public Gate 
 {

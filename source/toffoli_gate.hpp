@@ -1,12 +1,9 @@
 #ifndef TOFFOLIGATE_H
 #define TOFFOLIGATE_H
 
-#include <vector>
-#include <complex>
-
 #include "gate.hpp"
 
-class Toffoli : public Gate
+class ToffoliGate : public Gate
 {
 public:
     virtual void apply(std::vector<std::complex<double>>& state) override const;

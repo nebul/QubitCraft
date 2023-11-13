@@ -1,9 +1,6 @@
 #ifndef QUBIT_H
 #define QUBIT_H
 
-#include <complex>
-#include <vector>
-
 #include "gate.hpp"
 
 class Qubit 
